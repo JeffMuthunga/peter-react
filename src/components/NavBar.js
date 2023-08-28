@@ -77,10 +77,10 @@ function NavBar() {
                 About
               </Link>
               <Link
-                to="/gallery"
+                to="/contact-us"
                 className="text-black hover:text-lime-600 block px-3 py-2 rounded-md text-base font-medium"
               >
-                Gallery
+                Contact-us
               </Link>
             </div>
             </div>)}
