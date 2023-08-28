@@ -2,12 +2,10 @@ import React from 'react'
 import NavBar from '../components/NavBar'
 import imj from "../images/pexels-about.jpg"
 import boss from "../images/peterboss.jpg"
-import partners from "../images/pexels-about.jpg"
 import farm from "../images/largefarm.jpg"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebook, faGoogle, faInstagram, faPagelines, faTwitter } from '@fortawesome/free-brands-svg-icons'
 import { faCheck } from '@fortawesome/free-solid-svg-icons'
-import { FaLinkedin, FaYoutube } from 'react-icons/fa'
 import TeamSection from '../components/TeamSection'
 import Footer from '../components/Footer'
 
