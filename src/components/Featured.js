@@ -8,7 +8,7 @@ function Featured() {
 <div className="container mx-auto">
   <div className="flex flex-wrap items-center">
     <div className="w-10/12 md:w-6/12 lg:w-4/12 px-12 md:px-4 mr-auto ml-auto -mt-78">
-      <div className="relative flex flex-col min-w-0 break-words bg-lime w-full mb-6 shadow-lg rounded-lg bg-lime-300">
+      <div className="scroll-animate animate__slideInUp relative flex flex-col min-w-0 break-words bg-lime-400 w-full mb-6 shadow-lg rounded-lg bg-lime-300">
         <img alt="..." src={crop} className="w-full  h-128 align-middle rounded-t-lg"/>
         <blockquote className="relative p-8 mb-4">
           <svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 583 95" className="absolute left-0 w-full block h-95-px -top-94-px">
@@ -30,7 +30,7 @@ function Featured() {
       <div className="flex flex-wrap">
         <div className="w-full md:w-6/12 px-4">
           <div className="relative flex flex-col mt-4">
-            <div className="px-4 py-5 flex-auto">
+            <div className=" scroll-animate animate__slideInUp px-4 py-5 flex-auto">
               <div className="text-lime-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
                 <i className="fas fa-brain"></i>
               </div>
@@ -40,7 +40,7 @@ function Featured() {
               </p>
             </div>
           </div>
-          <div className="relative flex flex-col min-w-0">
+          <div className=" scroll-animate animate__slideInUp relative flex flex-col min-w-0">
             <div className="px-4 py-5 flex-auto">
               <div className="text-lime-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
                 <i className="fas fa-leaf"></i>
@@ -54,7 +54,7 @@ function Featured() {
             </div>
           </div>
         </div>
-        <div className="w-full md:w-6/12 px-4">
+        <div className=" scroll-animate animate__slideInUp w-full md:w-6/12 px-4">
           <div className="relative flex flex-col min-w-0 mt-4">
             <div className="px-4 py-5 flex-auto">
               <div className="text-lime-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
@@ -66,7 +66,7 @@ function Featured() {
               </p>
             </div>
           </div>
-          <div className="relative flex flex-col min-w-0">
+          <div className="scroll-animate animate__slideInUp relative flex flex-col min-w-0">
             <div className="px-4 py-5 flex-auto">
               <div className="text-lime-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
                 <i className="fas fa-wallet"></i>

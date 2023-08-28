@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
+import hhalogo from "../images/hhalogo.png"
 
 function NavBar() {
 
@@ -8,21 +9,26 @@ function NavBar() {
     const toggleMenu = () => {
     setHamburgerMenu(!hamburgerMenu)
   }
+  const navigate = useNavigate()
+
+  const handleNavigation = () => {
+    navigate("/")
+  }
 
   return (
-    <nav className='mx-auto flex h-20 text-black justify-between bg-lime-400'>
-      <div className='flex flex-row w-2/3'>
-      <div className='mx-auto w-1/5 md:py-8'>
-        <h2>Makueni Valley <br/> Farm</h2>
+    <nav className='mx-auto flex h-30 text-black bg-lime-400'>
+      <div className='flex flex-row md:w-2/3 space-x-56'>
+      <div className='mx-auto w-1/5' >
+        <img  onClick={handleNavigation} src={hhalogo} alt="logo"/>
       </div>
 
-      <div className='hidden md:flex mx-auto w-3/5 space-x-24 justify-center py-8'>
-        <h2> About</h2>
-        <h2> Services</h2>
-        <h2> Gallery</h2>
+      <div className='hidden md:flex mx-auto md:w-2/5 justify-between items-center'>
+        <Link to="/about"><h2> About Us</h2></Link>  
+        <Link to="/products" ><h2> Products</h2></Link>
+        <Link to="/contact-us" ><h2> Contact</h2></Link>
       </div>
 
-      <div className='md:hidden w-1/5'>
+      <div className='md:hidden'>
         <button className="text-red-600 bg-red hover:text-black focus:outline-none"
           onClick={toggleMenu}
           >

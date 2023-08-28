@@ -156,7 +156,7 @@ function Footer() {
         </ul>
 
         <p className="mt-8 text-xs text-gray-500 sm:mt-0">
-          &copy; 2023. Makueni Valley Farm. All rights reserved.
+          &copy; 2023. Healthy Harvest Harbingers. All rights reserved.
         </p>
       </div>
     </div>
