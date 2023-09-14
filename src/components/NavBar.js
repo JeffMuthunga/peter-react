@@ -22,8 +22,8 @@ function NavBar() {
         <img  onClick={handleNavigation} src={hhalogo} alt="logo"/>
       </div>
 
-      <div className='hidden md:flex mx-auto md:w-2/5 justify-between items-center'>
-        <Link to="/about"><h2> About Us</h2></Link>  
+      <div className='hidden md:flex mx-auto md:w-2/5 text-sm justify-between items-center'>
+        <Link to="/about"><h2 > About Us</h2></Link>  
         <Link to="/products" ><h2> Products</h2></Link>
         <Link to="/contact-us" ><h2> Contact</h2></Link>
       </div>
@@ -75,6 +75,12 @@ function NavBar() {
                 className="text-black hover:text-lime-600 block px-3 py-2 rounded-md text-base font-medium"
               >
                 About
+              </Link>
+              <Link
+                to="/products"
+                className="text-black hover:text-lime-600 block px-3 py-2 rounded-md text-base font-medium"
+              >
+                Products
               </Link>
               <Link
                 to="/contact-us"
