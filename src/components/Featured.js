@@ -7,7 +7,7 @@ function Featured() {
         <section className="relative pt-16 bg-blueGray-50">
 <div className="container mx-auto">
   <div className="flex flex-wrap items-center">
-    <div className="w-10/12 md:w-6/12 lg:w-4/12 px-12 md:px-4 mr-auto ml-auto -mt-78">
+    <div className="hidden md:flex w-10/12 md:w-6/12 lg:w-4/12 px-12 md:px-4 mr-auto ml-auto -mt-78">
       <div className="scroll-animate animate__slideInUp relative flex flex-col min-w-0 break-words bg-lime-400 w-full mb-6 shadow-lg rounded-lg bg-lime-300">
         <img alt="..." src={crop} className="w-full  h-128 align-middle rounded-t-lg"/>
         <blockquote className="relative p-8 mb-4">

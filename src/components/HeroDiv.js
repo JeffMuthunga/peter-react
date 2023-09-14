@@ -6,7 +6,7 @@ import "animate.css"
 function HeroDiv() {
   return (
     <div className="mx-auto flex flex-col-reverse md:flex-row">
-  <div className="animate__animated animate__slideInLeft w-full xl:w-1/4  md:pl-24 lg:pl-28 xl:pl-36 md:py-16 lg:py-16 xl:py-28 bg-white z-2">
+  <div className="animate__animated animate__slideInLeft bg-white z-10 md:py-16 lg:py-16 xl:py-28 w-full xl:w-1/4 md:pl-18 lg:pl-20 xl:pl-24  ">
 
 
   <div className='flex flex-wrap p-2 space-x-2  md:space-x-0 lg:p-0 sm:flex-row justify-center  md:flex-col'>
@@ -22,14 +22,14 @@ function HeroDiv() {
         is a farm-based solution to Kenya's growing agricultural needs
       </p>
     </div>
-    <div className="flex flex-row justify-center mb-8 sm:flex-row sm:justify-start space-x-4 sm:space-x-8">
-  <button className="bg-black h-12 w-32 text-xs text-white">Contact Us</button>
-  
-  <button className="space-x-4 flex items-center gap-x-2">
-   <Link> Products <FaLongArrowAltRight /> </Link>
+
+  <div className="flex flex-row justify-center mb-8 sm:justify-start space-x-8 md:space-x-4 ">
+  <button className="bg-black h-12 w-32 text-sm text-white"> <Link to="/contact-us" >Contact us</Link></button>
+  <button className="text-sm flex items-center gap-x-2">
+   <Link to="/products" className='flex gap-x-2 items-center'> Products <FaLongArrowAltRight className='text-base' /> </Link>
   </button>
-  
-</div>
+  </div>
+
   </div>
   <div
     className="animate__animated animate__slideInRight w-full md:w-3/4 rounded-2xl mt-4 lg:mt-0"

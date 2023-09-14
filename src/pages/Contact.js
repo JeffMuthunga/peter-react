@@ -66,12 +66,12 @@ function Contact() {
 
 	<NavBar/>
 	<div className='text-center md:text-left mx-auto flex flex-col-reverse lg:flex-row-reverse'>
-	<div className='w-full md:w-1/2 p-12 md:p-24'>
-		<h1 className='text-5xl font-medium md:py-12'>Contact <span className='text-transparent bg-clip-text text-2xl bg-gradient-to-r from-lime-400 to-blue-400'>Healthy Harvest Agriventures</span></h1>
-		<p className='block md:pr-32 text-base'>Thank you for visiting our website. If you want to partner with us, please feel free to use the feedback form below.</p>
+	<div className='w-full md:w-1/2 p-12 md:p-8'>
+		<h1 className='text-3xl md:text-3xl font-medium py-2 md:py-4'>Contact <span className='text-transparent bg-clip-text md:text-2xl bg-gradient-to-r from-lime-400 to-blue-400'>Healthy Harvest Agriventures</span></h1>
+		<p className='block md:pr-32 text-base'>Thank you for visiting our website. If you want to partner with us, please feel free to use the contact form below.</p>
 		
 		<div className="container py-8">
-  <form onSubmit={sendEmail} ref={form} className="animate__animated animate__slideInRight max-w-md bg-white mx-auto md:p-6 rounded-md shadow-xl">
+  <form onSubmit={sendEmail} ref={form} className="animate__animated animate__slideInRight max-w-md bg-white mx-auto p-4 md:p-6 rounded-md shadow-xl">
     <div className="grid grid-cols-2 gap-4 mb-4">
       <div className="col-span-1">
         <label htmlFor="firstName" className="block text-sm font-semibold text-gray-700 mb-1">
@@ -129,7 +129,7 @@ function Contact() {
 </div>
 
 	</div>
-	<div className='flex w-full md:w-1/2 rounded'>
+	<div className='hidden md:flex w-full md:w-1/2 rounded'>
 		<img src={img} alt="Contact_Image" className='p-24 animate__animated animate__slideInLeft w-full h-full object-contain'/>
 	</div>
 	</div>
